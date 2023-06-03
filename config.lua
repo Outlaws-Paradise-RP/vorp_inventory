@@ -10,7 +10,7 @@ Config = {
 	DevMode                  = false, -- if your server is live set this to false.  to true only if you are testing things (auto load inventory when script restart and before character selection. Alos add /getInv command)
 	dbupdater                = true,
 	--======================= CONFIGURATION =============================--
-	ShowCharacterNameOnGive  = false, -- when giving an item, show the character name of nearby players instead of their player ID. if set to false, show the player ID
+	ShowCharacterNameOnGive  = true, -- when giving an item, show the character name of nearby players instead of their player ID. if set to false, show the player ID
 	DoubleClickToUse         = true, -- if toggled to false, items in inventory will right click then left click "use"
 	NewPlayers               = false, --- if you dont want new players to give money or items then set to true. this can avoid cheaters giving stuff on first join
 	-- GOLD ITEM LIKE DOLLARS
@@ -93,8 +93,8 @@ Config = {
 
 	-- HOW MANY WEAPONS AND ITEMS ALLOWED PER PLAYER
 	MaxItemsInInventory      = {
-		Weapons = 6,
-		Items = 200,
+		Weapons = 25,
+		Items = 300,
 	},
 	-- HERE YOU CAN SET THE MAX AMOUNT OF WEAPONS PER JOB (IF YOU WANT)
 	JobsAllowed              = {
